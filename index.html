@@ -21,6 +21,7 @@
   <link href="index-mobile.css" rel="stylesheet" type="text/css"> -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <style type="text/css">
     body {
       background-color: #1DF428;
@@ -56,28 +57,32 @@ Do the following if you're using your customized build of modernizr (http://www.
 
 <body>
   <div class="container-fluid">
-    <header id="banner" class="img-responsive"><img src="images/solologo.png" alt="SoloSider logo" width="200" height="109">
-      <p><strong>These tools allow one person to install up to twelve inch siding </strong> </p>
+    <header id="banner">
+      <img class="img-responsive" src="images/solologo.png" alt="SoloSider logo" width="200" height="109">
     </header>
-
-    <article id="story1" class="fluid ">
-      <p>100% Made In The U.S.A.</p>
-    </article>
-    <div id="patentnumber" class="fluid ">
-      <p>Patent #7,213,346&nbsp;&nbsp;&nbsp;&nbsp;No sales tax if purchased on webpage. Please purchase from the webpage. It will help Mom and Pop make more money and Cathy will send you a small gift.
-      </p>
+  </div> <!-- container-fluid div -->
+  <div class="container">
+    <h3>These tools allow one person to install up to twelve inch siding </h3> 
+    <h3 id="story1">100% Made In The U.S.A.</h3>
+      <div class="row">
+        <div class="col-md-2">
+          <h3>Patent #7,213,346</h3>
+        </div>
+        <div class="col-md-10">
+          <h3>No sales tax if purchased on webpage. Please purchase from the webpage. It will help Mom and Pop make more money and Cathy will send you a small gift.</h3>
+        </div>
+      </div> <!-- row div -->
+    <a class="btn btn-info" href="instruct.pdf" title="Instructions">Installation Charts</a>
+    <div id="story">
+      <h3>The SoloSider is a high quality tool, used to hang fiber-cement, LP Smartside and beveled cedar siding. It can be adjusted for different size overlaps (3/4in. to 1 3/4in.) with a simple push and twist, no screws or nuts to worry about. It will move the
+      plank up and down in 1/16 increments without having to remove it from the hangers. It will not rip the paper or house wrap. It will not mark the siding.</h3>
+      <h3>These are the only tools that you can adjust the overlap or reveal in real time. If you want the job to look professional you have to align the siding with the bottoms of the windows and hopefully the tops. Even with the variety of siding board widths out there, using a strict 1 1/4 overlap with Hardi or Certainteed and even the 1" overlap with LP Smartside it is doubtful you will accomplish this . Of course if you have a straightfoward job use the fixed overlap tools. We make some very nice ones that allow you to fudge the plank down as much as 1/8"</h3>
+      <h3>These are the only tools that you can adjust the overlap or reveal in real time. If you want the job to look professional you have to align the siding with the bottoms of the windows and hopefully the tops. Even with the variety of siding board widthsout there, using a strict 1 1/4 overlap with Hardi or Certainteed and even the 1" overlap with LP Smartside it is doubtful you will accomplish this . Of course if you have a straightfoward job use the fixed overlap tools. We make some very nice ones that allow you to fudge the plank down as much as 1/8"</h3>
     </div>
-    <h4> <a href="instruct.pdf" title="Instructions">&nbsp; &nbsp; &nbsp;&nbsp;  Installation Charts</a></h4>
-    <div id="story" class="fluid ">
-      The SoloSider is a high quality tool, used to hang fiber-cement, LP Smartside and beveled cedar siding. It can be adjusted for different size overlaps (3/4in. to 1 3/4in.) with a simple push and twist, no screws or nuts to worry about. It will move the
-      plank up and down in 1/16 increments without having to remove it from the hangers. It will not&nbsp;rip&nbsp;the paper or house wrap. It will not&nbsp;mark&nbsp;the siding.
+    <div class="center-videos" id="videos">
+      <iframe src="https://www.youtube.com/embed/QiECsJ3GO1c" allowfullscreen="" width="420" height="315" frameborder="20"></iframe><iframe src="https://www.youtube.com/embed/ZL-124RyUFw" allowfullscreen="" width="420" height="315" frameborder="30"></iframe>
     </div>
-
-    <p>These are the only tools that you can adjust the overlap or reveal in real time. If you want the job to look professional you have to align the siding with the bottoms of the windows and hopefully the tops. Even with the variety of siding board widths
-    out there, using a strict 1 1/4 overlap with Hardi or Certainteed and even the 1" overlap with LP Smartside it is doubtful you will accomplish this . Of course if you have a straightfoward job use the fixed overlap tools. We make some very nice ones
-    that allow you to fudge the plank down as much as 1/8"</p>
-    <p>&nbsp;<iframe src="https://www.youtube.com/embed/QiECsJ3GO1c" allowfullscreen="" width="420" height="315" frameborder="20"></iframe><iframe src="https://www.youtube.com/embed/ZL-124RyUFw" allowfullscreen="" width="560" height="315" frameborder="30"></iframe></p>
-
+    
     <p>&nbsp;</p>
     <div id="Layer40"><img src="images/cam-plank.gif" alt="cam plank" width="300" height="250">
       <p>As you can see by the graphic above, we adjust the overlap which also changes the reveal using a full rise cam.Total cam adjustment is 1/4in. using 1/16 increments. The flat is the release position.</p>
@@ -279,7 +284,7 @@ Do the following if you're using your customized build of modernizr (http://www.
       <!-- End of StatCounter Code -->
     </div>
   </div>
-  <!-- container div -->
+  
 </body>
 
 </html>
