@@ -3,11 +3,37 @@
 	width: 100%;
 }
 
-h3 {
+h3, p {
 	text-align: justify;
 }
 
-.center-videos {
+.center-media {
 	display: flex;
 	justify-content: center;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.image-border {
+	border-color: 10px solid black;
+}
+
+.vertical-align {
+	display: flex;
+	align-items: center;
+}
+
+.top-buffer {
+	margin-top: 20px;
+}
+
+.centered {
+	display: flex;
+	justify-content: space-around;
+}
+
+.img-size {
+	min-width: 300px;
 }
