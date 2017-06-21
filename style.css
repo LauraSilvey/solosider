@@ -2,11 +2,19 @@ body {
   font-size: 2.0em;
 }
 
-#main-content {
+header {
+	padding-bottom: 35px;
+}
+
+.container-fluid {
 	margin-right: 3%;
 	margin-left: 3%;
 }
 
+.key-points {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 h1 {
 	font-size: 2.2em;
 }
@@ -30,9 +38,23 @@ h3, p {
 	text-align: justify;
 }
 
+.btn-info {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
 .section-title {
   text-align: center;
   margin-top: 40px;
+}
+
+.figure-grouping {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.figure-text {
+	margin-top: 10px;
 }
 
 .paypal-button {
@@ -52,7 +74,8 @@ h3, p {
 
 .center-media {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+
 }
 
 .wrap {
