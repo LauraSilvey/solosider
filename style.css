@@ -137,3 +137,13 @@ h3, p {
 	margin: 10px;
 	max-height: 400px;
 }
+
+ body {
+      background-color: #1DF428;
+    }
+
+    body,
+    td,
+    th {
+      color: #0D5FAB;
+    }
