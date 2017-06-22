@@ -61,7 +61,11 @@ h3, p {
   padding-top: 20px;
 }
 
-
+.purchase-options {
+	display:flex;
+	flex-flow: column nowrap;
+  align-items: center;
+}
 
 .wrap {
 	flex-wrap: wrap;
