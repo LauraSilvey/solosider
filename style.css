@@ -61,22 +61,7 @@ h3, p {
   padding-top: 20px;
 }
 
-.purchase-option {
-  margin-left: 20px;
-}
 
-.container {
-	max-width: 1400px;
-	width: 100%;
-}
-
-
-
-.center-media {
-	display: flex;
-	justify-content: space-around;
-
-}
 
 .wrap {
 	flex-wrap: wrap;
@@ -86,30 +71,11 @@ h3, p {
 	border-color: 10px solid black;
 }
 
-.vertical-align {
-	display: flex;
-	align-items: center;
-}
-
 .top-buffer {
 	margin-top: 20px;
 }
 
-.centered {
-	display: flex;
-	justify-content: space-around;
-}
 
-.thumbnail {
-	max-width: 300px;
-}
-
-.tool-images {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	align-items: center;
-}
 
 /*
     Media Queries
@@ -120,7 +86,17 @@ h3, p {
 }
 /* TABLET */
 @media (min-width : 781px) and (max-width : 1024px) {
+  .center-media {
+	  display: flex;
+	  justify-content: space-around;
+  }
 
+  .tool-images {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
 
   body {
   	background-color: orange !important;
@@ -128,6 +104,21 @@ h3, p {
 }
 /* DESKTOP & LAPTOP */
 @media (min-width : 1025px) {
+  .center-media {
+	  display: flex;
+	  justify-content: space-around;
+  }
+
+  .tool-images {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.purchase-option {
+  margin-left: 20px;
+}
 
 }
 
