@@ -70,6 +70,11 @@ h3, p {
   align-items: center;
 }
 
+.purchase-option-text {
+
+  align-text: center;
+}
+
 .wrap {
 	flex-wrap: wrap;
 }
