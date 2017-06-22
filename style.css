@@ -98,7 +98,7 @@ h3, p {
  */
 
 /* TABLET */
-@media (min-width : 768px) {
+@media(min-width:768px) and (max-width:991px) {
   .center-media {
 	  display: flex;
 	  justify-content: space-around;
@@ -116,9 +116,16 @@ h3, p {
   }
 }
 /* DESKTOP & LAPTOP */
-@media (min-width : 1025px) {
+
+@media(min-width:992px) {
+   .video { 
+        width:560px;
+        padding-bottom:315px !important;
+    }
+
   .center-media {
 	  display: flex;
+	  flex-flow: row wrap;
 	  justify-content: space-around;
   }
 
@@ -129,9 +136,9 @@ h3, p {
 	align-items: center;
 }
 
-.purchase-option {
-  margin-left: 20px;
-}
+	.purchase-option {
+	  margin-left: 20px;
+	}
 
 }
 
