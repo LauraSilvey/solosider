@@ -59,6 +59,9 @@ h3, p {
 
 .paypal-button {
   padding-top: 20px;
+  display: flex;
+	flex-flow: column nowrap;
+  align-items: center;
 }
 
 .purchase-options {
@@ -79,6 +82,11 @@ h3, p {
 	margin-top: 20px;
 }
 
+.purchase-option {
+	display: flex;
+	flex-flow: column nowrap;
+  align-items: center;
+}
 
 
 /*
