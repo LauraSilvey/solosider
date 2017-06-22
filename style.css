@@ -96,12 +96,9 @@ h3, p {
 /*
     Media Queries
  */
-/* PHONE */
-@media (max-width : 786px) {
 
-}
 /* TABLET */
-@media (min-width : 781px) and (max-width : 1024px) {
+@media (min-width : 768px) {
   .center-media {
 	  display: flex;
 	  justify-content: space-around;
